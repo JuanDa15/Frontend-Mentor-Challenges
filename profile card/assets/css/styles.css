@@ -3,6 +3,15 @@
   font-size: 1.1rem;
 }
 
+ul {
+  list-style: none;
+}
+
+ul, li, h2 {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   min-height: 100vh;
   background-color: #19a2ae;
@@ -76,6 +85,10 @@ body::after {
 .card__content span {
   color: #6a6f81;
   font-weight: 400;
+}
+
+.name {
+  display: inline-block;
 }
 
 .card__content-age {
@@ -164,10 +177,10 @@ body::after {
 @media screen and (min-width: 1440px) {
   body::before {
     bottom: -50%;
-    right: -10%;
+    right: -15%;
   }
   body::after {
     top: -50%;
-    left: -10%;
+    left: -15%;
   }
 }

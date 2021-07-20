@@ -15,6 +15,15 @@ $desktop: 1440px;
   font-size: 1.1rem;
 }
 
+ul{
+  list-style: none;
+}
+
+ul,li,h2{
+  padding: 0;
+  margin: 0;
+}
+
 body{
   min-height: 100vh;
   background-color: $dark_cyan;
@@ -91,6 +100,10 @@ body{
     color: $dark_grayish_blue;
     font-weight: 400;
   }
+}
+
+.name{
+  display: inline-block;
 }
 
 .card__content-age{
@@ -190,12 +203,12 @@ body{
   body{
     &::before{
       bottom: -50%;
-      right: -10%;
+      right: -15%;
     }
   
     &::after{
       top: -50%;
-      left: -10%;
+      left: -15%;
     }
   }
 }
