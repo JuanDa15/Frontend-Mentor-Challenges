@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 **375px**
-![](assets\images\screenshots\1.PNG)
+![](./assets/images/screenshots/1.PNG)
 ![](assets\images\screenshots\11.PNG)
 
 **1440 px**
@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/social%20proof%20section](https://your-solution-url.com)
 - Live Site URL: [https://musing-bartik-68260a.netlify.app](https://your-live-site-url.com)
 
 ## My process
