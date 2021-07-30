@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/single%20price%20grid](https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/single%20price%20grid)
-- Live Site URL: [https://silly-cray-026864.netlify.app](https://silly-cray-026864.netlify.app)
+- Live Site URL: [https://zealous-almeida-e562b8.netlify.app](https://zealous-almeida-e562b8.netlify.app)
 
 ## My process
 
