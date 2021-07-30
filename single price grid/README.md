@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/single%20price%20grid](https://your-solution-url.com)
-- Live Site URL: [https://silly-cray-026864.netlify.app/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/single%20price%20grid](https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/single%20price%20grid)
+- Live Site URL: [https://silly-cray-026864.netlify.app](https://silly-cray-026864.netlify.app)
 
 ## My process
 
