@@ -111,8 +111,8 @@ ul{
   
   .container{
     margin: 0;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   .cards__container{
