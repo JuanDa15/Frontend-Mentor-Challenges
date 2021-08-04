@@ -15,6 +15,7 @@ ul{
   // font-family: 'Big Shoulders Display', cursive;
   background-color: $v_light_gray;
   font-family: 'Lexend Deca', sans-serif;
+  box-sizing: border-box;
 }
 
 .container{
@@ -62,9 +63,18 @@ ul{
     border: none;
     background-color: $v_light_gray;
     border-radius: 5rem;
+    border: 2px solid $v_light_gray;
     text-transform: capitalize;
     padding: 1rem 2rem;
+    cursor: pointer;
+
+    &:hover{
+      background-color: inherit;
+      border: 2px solid $v_light_gray;
+      color: $v_light_gray;
+    }
   }
+
 }
 
 .card__img{
@@ -85,8 +95,44 @@ ul{
   line-height: 1.5rem;
   color: $transparent_white;
   margin-bottom: 2rem;
+  font-size: .9rem;
 }
 
-@media screen and (max-width:) {
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: $bright_orange
+}
+
+@media screen and (min-width: 1440px) {
   
+  .container{
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .cards__container{
+    display: flex;
+    flex-flow: row nowrap;
+    width: auto;
+    max-width: none;
+    overflow: hidden;
+  }
+
+  .card{
+    width: 322px;
+
+    button{
+      margin-top: 3rem;
+    }
+  }
+
+  .card__content{
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
 }
