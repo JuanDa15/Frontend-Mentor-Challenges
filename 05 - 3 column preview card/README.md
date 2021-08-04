@@ -41,7 +41,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/05%20-%203%20column%20preview%20card](https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/05%20-%203%20column%20preview%20card)
-- Live Site URL: [https://amazing-mccarthy-d85217.netlify.app](https://amazing-mccarthy-d85217.netlify.app)
+- Live Site URL: [https://awesome-noyce-3b24b1.netlify.app](https://awesome-noyce-3b24b1.netlify.app)
 
 ## My process
 
