@@ -26,7 +26,7 @@ Users should be able to:
 ![](./assets/images/screenshots/captura2.png)
 
 
-**Mobile view **
+**Mobile view**
 ![](./assets/images/screenshots/captura3.png)
 ![](./assets/images/screenshots/captura4.png)
 ![](./assets/images/screenshots/captura5.png)
