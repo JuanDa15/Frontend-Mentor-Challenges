@@ -55,4 +55,4 @@ Users should be able to:
 ## Author
 
 - Github - [JuanDa15](https://github.com/JuanDa15)
-- Frontend Mentor - [@JuanDa15](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@JuanDa15](https://www.frontendmentor.io/profile/JuanDa15)
