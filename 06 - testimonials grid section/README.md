@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/06%20-%20testimonials%20grid%20section](https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/06%20-%20testimonials%20grid%20section)
-- Live Site URL: [https://reverent-wilson-eb259f.netlify.app](https://reverent-wilson-eb259f.netlify.app)
+- Live Site URL: [https://wonderful-fermi-e00d31.netlify.app](https://wonderful-fermi-e00d31.netlify.app)
 
 ## My process
 
