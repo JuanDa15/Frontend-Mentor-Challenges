@@ -33,7 +33,7 @@ body {
 }
 
 .testimonial:nth-child(1) .subject {
-  font-size: 2rem;
+  font-size: 1.7rem;
   position: relative;
   z-index: 10;
 }
@@ -52,6 +52,10 @@ body {
 
 .testimonial:nth-child(2) {
   background-color: #48556a;
+}
+
+.testimonial:nth-child(2) .subject {
+  font-size: 1.7rem;
 }
 
 .testimonial:nth-child(3) {
@@ -105,9 +109,6 @@ body {
   margin-top: 2rem;
   font-style: normal;
   color: #fff;
-}
-
-.subject p {
   font-size: 1.7rem;
 }
 

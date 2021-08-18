@@ -49,7 +49,7 @@ body{
     position: relative;
 
     .subject{
-      font-size: 2rem;
+      font-size: 1.7rem;
       position: relative;
       z-index: 10;
     }
@@ -69,6 +69,10 @@ body{
 
   &:nth-child(2){
     background-color: $v_dark_grayish_blue;
+
+    .subject{
+      font-size: 1.7rem;
+    }
   }
 
   &:nth-child(3){
@@ -123,10 +127,7 @@ body{
   margin-top: 2rem;
   font-style: normal;
   color: #fff;
-
-  p{
-    font-size: 1.7rem;
-  }
+  font-size: 1.7rem;
 }
 
 .comment{
