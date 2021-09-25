@@ -3,4 +3,5 @@ This repository contains all the solved challenges that I have done so far, hope
 
 I will update this repository when i have finished another challenge
 
-## 1 Stats Preview Card: [Github](https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/01%20-%20stats%20preview%20card)
+## 1 - Stats Preview Card: [Github](https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/01%20-%20stats%20preview%20card)
+## 2 - Profile Card: [Github](https://github.com/JuanDa15/Frontend-Mentor-Challenges/tree/main/02%20-%20profile%20card)
