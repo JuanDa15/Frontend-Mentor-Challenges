@@ -19,7 +19,7 @@ body {
 
 .testimonial {
   margin-bottom: 1.5rem;
-  overflow: hidden;
+  overflow-y: auto;
   border-radius: .5rem;
   padding: 2rem;
   max-width: 337.5px;
@@ -151,7 +151,6 @@ body {
   .testimonial__container {
     width: 98%;
     max-width: 1164px;
-    height: 60%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
