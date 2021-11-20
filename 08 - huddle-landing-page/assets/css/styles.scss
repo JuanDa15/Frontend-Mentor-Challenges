@@ -1,0 +1,21 @@
+// vars
+$mobile: 375px;
+$desktop: 1440px;
+
+// Colors
+
+// Primary
+$violet: hsl(257, 40%, 49%);
+$soft_magenta: hsl(300, 69%, 71%);
+
+*,*::after,*::before{
+  font-family: 'Poppins', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+}
+
+main{
+  background-color: $violet;
+  min-height: 100vh;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
