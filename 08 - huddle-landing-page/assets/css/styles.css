@@ -2,9 +2,25 @@
   font-family: 'Poppins', sans-serif;
 }
 
-main {
+body {
   background-color: #674baf;
   min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+main {
+  position: relative;
+  z-index: 10;
 }
 
 .attribution {
@@ -14,4 +30,61 @@ main {
 
 .attribution a {
   color: #3e52a3;
+}
+
+.logo {
+  padding: 2.5rem 2.2rem;
+}
+
+.logo__img {
+  width: 150px;
+}
+
+.main-content {
+  padding: 0rem 2.2rem 2.5rem;
+}
+
+.illustration {
+  margin-bottom: 3.5rem;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+.presentation {
+  text-align: center;
+}
+
+.presentation__title {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2.4rem;
+  letter-spacing: 1px;
+}
+
+.presentation__description {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.presentation__button {
+  background: #fff;
+  border: 2px solid;
+  line-height: 1;
+  margin: 0.5em;
+  padding: .8rem 4rem;
+  transition: 0.25s;
+  border: 1px solid #674baf;
+  border-radius: 5rem;
+  color: #674baf;
+  filter: drop-shadow(2px 2px 2px rgba(42, 42, 42, 0.514));
+}
+
+.presentation__button:hover, .presentation__button:focus {
+  box-shadow: inset 0 0 0 2em #674baf;
+  border: 1px solid #fff;
+  color: #fff;
 }
