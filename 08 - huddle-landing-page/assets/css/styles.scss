@@ -22,17 +22,31 @@ body{
   &::before{
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-image: url('/assets/images/bg-mobile.svg');
     background-repeat: no-repeat;
+    background-size: contain;
     z-index: 1;
+  }
+
+  @media screen and (min-width: 1200px){
+    &::before{
+      background-image: url('/assets/images/bg-desktop.svg');
+      background-size: cover;
+    }
   }
 }
 
 main{
   position: relative;
   z-index: 10;
+
+ @media screen and (min-width: 1200px) {
+    min-height: 100vh;
+    max-width: 1600px;
+    margin: 0 auto;
+ }
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -40,8 +54,6 @@ main{
 
 .logo{
   padding: 2.5rem 2.2rem;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .logo__img{
@@ -53,12 +65,9 @@ main{
   grid-template-columns: 1fr;
   padding: 0rem 2.2rem 2.5rem;
 
-  @media (min-width:1000px) {
+  @media (min-width:1200px) {
     display: grid;
-    grid-template-columns: repeat(2,minmax(500px,600px));
-    margin: 0 auto;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: 1fr minmax(500px,650px);
   }
 }
 
@@ -76,11 +85,25 @@ main{
   text-align: center;
   font-family: 'Poppins', sans-serif;
 
+  @media screen and (min-width: 1200px){
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+  }
+
   &__title{
     font-size: 1.6rem;
     color: #fff;
     line-height: 2.4rem;
     letter-spacing: 1px;
+    
+    @media screen and (min-width: 1200px){
+      font-size: 2.5rem;
+      text-align: left;
+      margin-bottom: 1.5rem;
+    }
   }
 
   &__description{
@@ -88,6 +111,11 @@ main{
     letter-spacing: 1px;
     font-size: 1.1rem;
     line-height: 1.5rem;
+
+    @media screen and (min-width: 1200px){
+      text-align: left;
+      font-size: 1rem;
+    }
   }
 
   &__button{
@@ -102,11 +130,16 @@ main{
     color: $violet;
     filter: drop-shadow(2px 2px 2px rgba(42, 42, 42, 0.514));
 
+    @media screen and (min-width: 1200px){
+      align-self:flex-start;
+    }
+
     &:hover,
     &:focus {
-      box-shadow: inset 0 0 0 2em $violet;
-      border: 1px solid #fff;
+      box-shadow: inset 0 0 0 2em $soft_magenta;
+      border: 1px solid $soft_magenta;
       color: #fff;
+      filter: drop-shadow(0 0 4px rgba(42, 42, 42, 0.514));
     }
 
   }
@@ -118,6 +151,11 @@ main{
   flex-flow: row nowrap;
   justify-content: center;
   gap: 1rem;
+
+  @media screen and (min-width: 1200px){
+    justify-content: flex-end;
+    padding: 0 5.2rem;
+  }
   
   &-icon{
     display: grid;
@@ -129,12 +167,18 @@ main{
     height: 30px;
     font-size: .9rem;
     transition: 0.25s;
+
+    @media screen and (min-width: 1200px){
+      width: 45px;
+      height: 45px;
+      font-size: 1.2rem;
+    }
     
     &:hover,
     &:focus {
-      box-shadow: inset 0 0 0 1em #fff;
-      border: 1px solid #fff;
-      color: $violet;
+      box-shadow: inset 0 0 0 1em $violet;
+      border: 1px solid $soft_magenta;
+      color: $soft_magenta;
     }
   }
 }
@@ -154,7 +198,7 @@ footer{
 }
 
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1200px){
   .logo{
     padding: 1.5rem;
 
@@ -171,5 +215,9 @@ footer{
       max-width: none;
       width: 100%;
     }
+  }
+
+  footer {
+    display: none;
   }
 }
