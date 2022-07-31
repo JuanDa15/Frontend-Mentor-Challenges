@@ -1,0 +1,16 @@
+body {
+  background-color: #0c122c;
+  height: 100vh;
+  background-image: url('/assets/images/bg-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .3s ease;
+  
+  @media (min-width: 1440px){
+    background-image: url('/assets/images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    filter: drop-shadow(0 0 1.5rem #03050f);
+  }
+}
